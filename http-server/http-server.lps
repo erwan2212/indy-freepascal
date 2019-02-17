@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="pasEchoDemo.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="25"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="TestForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="3" Y="10"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\Indy10\Core\IdIOHandler.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2206"/>
+        <CursorPos Y="2221"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="47" Column="27" TopLine="41"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="48" Column="27" TopLine="42"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="49" Column="27" TopLine="43"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="50" Column="27" TopLine="44"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="51" Column="27" TopLine="45"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="52" Column="27" TopLine="46"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="53" Column="27" TopLine="47"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="54" Column="27" TopLine="48"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="55" Column="27" TopLine="49"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="56" Column="27" TopLine="50"/>
+      </Position10>
+      <Position11>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="55" Column="27" TopLine="49"/>
+      </Position11>
+      <Position12>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="54" Column="27" TopLine="48"/>
+      </Position12>
+      <Position13>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="53" Column="27" TopLine="47"/>
+      </Position13>
+      <Position14>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="52" Column="27" TopLine="46"/>
+      </Position14>
+      <Position15>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="51" Column="27" TopLine="45"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="50" Column="27" TopLine="44"/>
+      </Position16>
+      <Position17>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="49" Column="27" TopLine="43"/>
+      </Position17>
+      <Position18>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="46" Column="21" TopLine="43"/>
+      </Position18>
+      <Position19>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="70" TopLine="57"/>
+      </Position19>
+      <Position20>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="77" TopLine="63"/>
+      </Position20>
+      <Position21>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="7" Column="30"/>
+      </Position21>
+      <Position22>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="98" TopLine="82"/>
+      </Position22>
+      <Position23>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="97" TopLine="81"/>
+      </Position23>
+      <Position24>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="96" TopLine="80"/>
+      </Position24>
+      <Position25>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="95" TopLine="79"/>
+      </Position25>
+      <Position26>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="94" TopLine="78"/>
+      </Position26>
+      <Position27>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="89" Column="23" TopLine="78"/>
+      </Position27>
+      <Position28>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="70" Column="29" TopLine="58"/>
+      </Position28>
+      <Position29>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="75" Column="25" TopLine="58"/>
+      </Position29>
+      <Position30>
+        <Filename Value="TestForm.pas"/>
+        <Caret Line="33" Column="2" TopLine="18"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
