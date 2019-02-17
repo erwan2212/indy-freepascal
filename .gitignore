@@ -4,3 +4,10 @@
 *.bak
 *backup*
 *.ppu
+*.pem
+*.crt
+*.key
+*.compiled
+*.rsj
+*.obj
+*.or
