@@ -4,7 +4,7 @@ object Form2: TForm2
   Top = 266
   Width = 350
   Anchors = []
-  Caption = 'Form2'
+  Caption = 'HTTPS Server'
   ClientHeight = 553
   ClientWidth = 350
   Color = clBtnFace
