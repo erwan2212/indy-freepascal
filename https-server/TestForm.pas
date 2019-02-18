@@ -40,8 +40,13 @@ type
 
   TForm2 = class(TForm)
     Button1: TButton;
+    Label4: TLabel;
+    txtport: TEdit;
+    Label3: TLabel;
+    txtkey: TEdit;
     IdTCPServer1: TIdTCPServer;
     IdServerIOHandlerSSLOpenSSL1: TIdServerIOHandlerSSLOpenSSL;
+    Label2: TLabel;
     memResults: TMemo;
     Button4: TButton;
     Label1: TLabel;
@@ -50,6 +55,7 @@ type
     rbtlsv11: TRadioButton;
     rbtlsv10: TRadioButton;
     rbsslv3: TRadioButton;
+    txtcertificate: TEdit;
     procedure Button1Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure IdSSLIOHandlerSocketOpenSSL1Status(ASender: TObject;
@@ -79,8 +85,8 @@ begin
  //In the real world:
  //    FileNames should not be hardcoded, let the be configured external.
  //    Certs expire and change be prepared to handle it.
-  IdServerIOHandlerSSLOpenSSL1.SSLOptions.CertFile := 'device2.crt';
-  IdServerIOHandlerSSLOpenSSL1.SSLOptions.KeyFile := 'device.key';
+  IdServerIOHandlerSSLOpenSSL1.SSLOptions.CertFile := txtcertificate.Text ;
+  IdServerIOHandlerSSLOpenSSL1.SSLOptions.KeyFile := txtkey.Text ;
   //IdServerIOHandlerSSLOpenSSL1.SSLOptions.RootCertFile := 'rootca.pem';  //not mandatory since cert is signed with rootca and installed on client?
 
 //  IdServerIOHandlerSSLOpenSSL1.SSLOptions.RootCertFile := 'C:\_apps\openssl\rootca.pem'; //needed? since cert is signed with root cert
@@ -94,7 +100,7 @@ begin
   IdServerIOHandlerSSLOpenSSL1.OnGetPassword := GetPassword;
 
 
-  IdTCPServer1.DefaultPort := SERVER_PORT;
+  IdTCPServer1.DefaultPort := strtoint(txtport.Text) ;
   IdTCPServer1.IOHandler := IdServerIOHandlerSSLOpenSSL1;
   IdTCPServer1.OnConnect := ServerConnect;
   IdTCPServer1.OnExecute := ServerExecute;
