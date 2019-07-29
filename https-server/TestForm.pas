@@ -75,8 +75,7 @@ var
   Form2: TForm2;
 
 implementation
-const
-  SERVER_PORT = 4443;
+//const   SERVER_PORT = 4443;
 
 {$R *.dfm}
 
