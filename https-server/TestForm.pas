@@ -41,6 +41,8 @@ type
   TForm2 = class(TForm)
     Button1: TButton;
     Label4: TLabel;
+    Label5: TLabel;
+    txtpassword: TEdit;
     txtport: TEdit;
     Label3: TLabel;
     txtkey: TEdit;
@@ -130,8 +132,8 @@ begin
  //In the real world:
  //   This should never be hardcoded as it could change when the cert changes.
  //   Don't use Dictonary Words or your key can be brute force attacked.
-    writeln('GetPassword');
-    Password := 'test';
+    memResults.lines.add('GetPassword');
+    Password := txtpassword.Text ;
 end;
 
 procedure TForm2.IdSSLIOHandlerSocketOpenSSL1Status(ASender: TObject;
@@ -171,6 +173,7 @@ begin
         uri:= copy(uri,1,pos(' ',uri )-1);
         //memResults.lines.add(uri);
         uri:=StringReplace (uri,'/','',[]);;
+        AContext.Connection.IOHandler.WriteLn('HTTP/1.0 200 OK'#13#10);
         if FileExists(uri)
            then AContext.Connection.IOHandler.WriteFile(uri)
            else AContext.Connection.IOHandler.Writeln('file not found');

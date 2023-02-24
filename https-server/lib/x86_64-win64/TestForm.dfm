@@ -1,13 +1,14 @@
 object Form2: TForm2
   Left = 409
-  Height = 553
-  Top = 266
+  Height = 593
+  Top = 226
   Width = 350
   Anchors = []
   Caption = 'HTTPS Server'
-  ClientHeight = 553
+  ClientHeight = 593
   ClientWidth = 350
   Color = clBtnFace
+  DesignTimePPI = 120
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
@@ -15,7 +16,7 @@ object Form2: TForm2
   object Label1: TLabel
     Left = 31
     Height = 13
-    Top = 224
+    Top = 264
     Width = 87
     Caption = 'Server Responses'
     ParentColor = False
@@ -32,7 +33,7 @@ object Form2: TForm2
   object memResults: TMemo
     Left = 31
     Height = 264
-    Top = 258
+    Top = 286
     Width = 297
     Anchors = []
     ReadOnly = True
@@ -41,7 +42,7 @@ object Form2: TForm2
   object Button4: TButton
     Left = 33
     Height = 25
-    Top = 77
+    Top = 83
     Width = 297
     Anchors = []
     Caption = 'Close Server'
@@ -50,33 +51,33 @@ object Form2: TForm2
   end
   object rbsslv3: TRadioButton
     Left = 38
-    Height = 19
+    Height = 23
     Top = 106
-    Width = 54
+    Width = 58
     Caption = 'rbsslv3'
     TabOrder = 3
   end
   object rbtlsv10: TRadioButton
     Left = 96
-    Height = 19
+    Height = 23
     Top = 106
-    Width = 59
+    Width = 63
     Caption = 'rbtlsv10'
     TabOrder = 4
   end
   object rbtlsv11: TRadioButton
     Left = 160
-    Height = 19
+    Height = 23
     Top = 106
-    Width = 59
+    Width = 63
     Caption = 'rbtlsv11'
     TabOrder = 5
   end
   object rbtlsv12: TRadioButton
     Left = 224
-    Height = 19
+    Height = 23
     Top = 106
-    Width = 59
+    Width = 63
     Caption = 'rbtlsv12'
     Checked = True
     TabOrder = 6
@@ -129,6 +130,22 @@ object Form2: TForm2
     Width = 20
     Caption = 'Port'
     ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 33
+    Height = 13
+    Top = 216
+    Width = 46
+    Caption = 'Password'
+    ParentColor = False
+  end
+  object txtpassword: TEdit
+    Left = 37
+    Height = 21
+    Top = 232
+    Width = 289
+    TabOrder = 10
+    Text = 'password'
   end
   object IdTCPServer1: TIdTCPServer
     Bindings = <>
