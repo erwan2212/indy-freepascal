@@ -14,9 +14,9 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   LCLVersion = '1.8.2.0'
   object Label1: TLabel
-    Left = 31
+    Left = 33
     Height = 13
-    Top = 264
+    Top = 304
     Width = 87
     Caption = 'Server Responses'
     ParentColor = False
@@ -31,9 +31,9 @@ object Form2: TForm2
     TabOrder = 0
   end
   object memResults: TMemo
-    Left = 31
+    Left = 32
     Height = 264
-    Top = 286
+    Top = 320
     Width = 297
     Anchors = []
     ReadOnly = True
@@ -140,12 +140,27 @@ object Form2: TForm2
     ParentColor = False
   end
   object txtpassword: TEdit
-    Left = 37
+    Left = 33
     Height = 21
     Top = 232
     Width = 289
     TabOrder = 10
     Text = 'password'
+  end
+  object Label6: TLabel
+    Left = 33
+    Height = 13
+    Top = 256
+    Width = 68
+    Caption = 'RootCA (opt.)'
+    ParentColor = False
+  end
+  object txtrootca: TEdit
+    Left = 33
+    Height = 21
+    Top = 272
+    Width = 289
+    TabOrder = 11
   end
   object IdTCPServer1: TIdTCPServer
     Bindings = <>

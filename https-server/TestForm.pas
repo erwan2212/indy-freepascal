@@ -42,7 +42,9 @@ type
     Button1: TButton;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
     txtpassword: TEdit;
+    txtrootca: TEdit;
     txtport: TEdit;
     Label3: TLabel;
     txtkey: TEdit;
@@ -88,9 +90,9 @@ begin
  //    Certs expire and change be prepared to handle it.
   IdServerIOHandlerSSLOpenSSL1.SSLOptions.CertFile := txtcertificate.Text ;
   IdServerIOHandlerSSLOpenSSL1.SSLOptions.KeyFile := txtkey.Text ;
-  //IdServerIOHandlerSSLOpenSSL1.SSLOptions.RootCertFile := 'rootca.pem';  //not mandatory since cert is signed with rootca and installed on client?
+  IdServerIOHandlerSSLOpenSSL1.SSLOptions.RootCertFile := txtrootca.text;  //not mandatory since cert is signed with rootca and installed on client?
 
-//  IdServerIOHandlerSSLOpenSSL1.SSLOptions.RootCertFile := 'C:\_apps\openssl\rootca.pem'; //needed? since cert is signed with root cert
+
   IdServerIOHandlerSSLOpenSSL1.SSLOptions.Mode := sslmServer;
   IdServerIOHandlerSSLOpenSSL1.SSLOptions.VerifyMode := [];
   IdServerIOHandlerSSLOpenSSL1.SSLOptions.VerifyDepth  := 0;

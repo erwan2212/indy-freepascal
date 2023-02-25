@@ -11,3 +11,5 @@
 *.rsj
 *.obj
 *.or
+*.csr
+*.srl
